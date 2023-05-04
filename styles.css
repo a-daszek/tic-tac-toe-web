@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(44, 41, 44);
+    background-color: rgb(212, 237, 239);
+}
+
+#main-header {
+    background-color: rgb(163, 227, 110);
+    color: white;
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(128, 214, 58);
+    border: 1px solid rgb(128, 214, 58);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt {
+    border-color: transparent;
+    background-color: transparent;
+    color:  rgb(54, 110, 7);
+}
+
+.btn:hover {
+    background-color: rgb(101, 200, 21);
+    border-color:  rgb(101, 200, 21);
+}
+
+.btn-alt:hover {
+    background-color: rgb(173, 227, 131);
+    border-color: transparent;
+}
