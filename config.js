@@ -18,7 +18,7 @@ function savePlayerConfig(event){
     const enteredPlayername = formData.get("playername").trim(); /* ściągamy nazwę gracza, a metoda trim usuwa spacje przed i za treścią */ 
     
     if (!enteredPlayername){ //dlaczego tak? ponieważ pusty string w js ma wartość false. Mogłoby być również enteredPlayername === " "//
-        event.target.firstElementChild.classList.add("error"); //tworzy się klasa "form-control error"
+        event.target.firstElementChild.classList.add("error"); //tworzy się klasa "form-control error" dzięki "add"
         errorsOutputElement.textContent = "Please enter a valid name.";
         return;
     }

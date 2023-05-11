@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic-Tac-Toe Game</title>
+    <title>Tic-Tac-Toe Game</title> <!--to wyświetla się jako tytuł karty w przeglądarce, ze wszystkich rzeczy sekcji "head" to jest widoczne-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=PT+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=PT+Sans&display=swap" rel="stylesheet"> <!--czcionka z google fonts-->
+<link rel="stylesheet" href="styles.css"> <!-- zaczynając od tej linii, są wskazane 4 pliki ze stylami-->
 <link rel="stylesheet" href="overlays.css">
 <link rel="stylesheet" href="configuration.css">
 <link rel="stylesheet" href="game.css">
-<script src="config.js" defer></script>
+<script src="config.js" defer></script> <!--odtąd wskazujemy skrypty w javascript-->
 <script src="game.js" defer></script>
 <script src="app.js" defer></script>
 </head>
-<body>
+<body> <!-- tutaj w tej sekcji ogarniamy strukturę strony-->
     <div id="backdrop"></div>
-    <header id="main-header">
-        <h1>Play Tic-Tac-Toe!</h1>
+    <header id="main-header"> <!-- jest on wystylizowany w styles.css-->
+        <h1>Play Tic-Tac-Toe!</h1> <!-- h1 ma największa czcionkę, wskazuje też ważność elementu, h2 już ma mniejszą, h3 jeszcze mniejszą i tak do h7 (chyba, albo h6 jest ostatnie?? XD)-->
         <p>Built with HTML, CSS and JavaScript</p>
     </header>
     <main>
@@ -38,8 +38,8 @@
             </form>
         </aside>
         <section id="game-configuration">
-            <ol>
-                <li>
+            <ol> <!--ordered list-->
+                <li> <!--list item-->
                     <article id="player-1-data">
                         <h2>Player 1</h2>
                         <h3>PLAYER NAME</h3>

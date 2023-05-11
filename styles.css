@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Bruno Ace SC', cursive; /* zostały one podlinkowane w index.html, musimy je tu też wskazać. Dodatkowo, jeśli google fonts nie będzie np. działać z jakiegoś powodu to w kolejnej linii, po przecinku jest "sans-serif" to jest rodzina czcionek, z której jedna z nich będzie backupem w razie awarii Google fonts*/
     font-family: 'PT Sans', sans-serif;
     color: rgb(44, 41, 44);
     background-color: rgb(212, 237, 239);

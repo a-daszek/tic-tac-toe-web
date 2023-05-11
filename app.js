@@ -20,7 +20,7 @@ const players = [
     },
 ];
 
-const playerConfigOverlayElement = document.getElementById("config-overlay"); /* zapisujemy element w zmiennej aby przeprowadzać na nim operacje*/
+const playerConfigOverlayElement = document.getElementById("config-overlay"); /* zapisujemy element w zmiennej aby przeprowadzać na nim operacje, nawigujemy do niego po id, które zostało nadane w index.html*/
 const backdropElement = document.getElementById("backdrop");
 const formElement = document.querySelector("form");
 const errorsOutputElement = document.getElementById("config-errors");
